@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Trap-Regular;
+  src: url(Fonts/Trap-Regular.otf) format("opentype");
+
+}
+@font-face {
+  font-family: Trap-Bold;
+  src: url(Fonts/Trap-Bold.otf) format("opentype");
+  font-style:normal;
+}
+@font-face {
+  font-family: Trap-Bold;
+  src: url(Fonts/Trap-SemiBold.otf) format("opentype");
+  font-style:oblique;
+}
+@font-face {
+  font-family: Trap-Bold;
+  src: url(Fonts/Trap-ExtraBold.otf) format("opentype");
+  font-style:italic;
+}
+@font-face {
+  font-family: Quiny;
+  src: url(Fonts/quiny.ttf);
+  font-style: normal;
+
+}
+@font-face {
+  font-family: Gayo;
+  src: url(Fonts/Gayo\ Wine\ Demo.ttf) format("truetype");
+  font-style: normal;
+
+}
+@font-face {
+  font-family: Gayo;
+  src: url(Fonts/Gayo\ Wine\ Outline\ Demo.ttf) format("truetype");
+  font-style: italic;
+
 }
